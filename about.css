@@ -1,0 +1,48 @@
+.work-sans {
+  font-family: 'Work Sans', sans-serif;
+}
+   
+#menu-toggle:checked + #menu {
+  display: block;
+}
+.about-heading, .member-heading{
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-top: 25px;
+}
+.about .about-heading{
+  margin-left: 100px;
+}
+.about .about-content{
+  width: 1000px;
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+.member-heading{
+  margin-left: 100px;
+}
+.member .member-list{
+ overflow: hidden;
+ margin-top: 20px;
+ padding-bottom: 80px;
+}
+.member .member-item{
+  text-align: center;
+  width: 33.333%;
+  float: left;
+}
+.member .member-name{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.member .member-img{
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
